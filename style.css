@@ -1,0 +1,62 @@
+body{
+    background-color: #aa5f2d;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+header h1{
+    text-align: center;
+    margin: 10px;
+}
+
+header nav{
+    text-align: end;
+}
+
+section{
+    background-color: #dddddd;
+    border: 5px solid #000000;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#sobremi img{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 1rem 31rem;
+}
+
+#Hobbiesyhabilidades img{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 1rem 28rem;
+}
+
+main section form{
+    background-color: #ffffff;
+    border: #000000 solid 3px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer{
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+}
+
+footer a img{
+    margin: 1rem 2rem;
+    height: 8.5rem;
+    width: 8.5rem;
+}
+
+footer p{
+    font-size: 1.5rem;
+    text-align: end;
+}
