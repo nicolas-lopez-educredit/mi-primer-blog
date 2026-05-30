@@ -7,15 +7,24 @@ body{
 header{
     background-color: #ffffff;
     padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 
-header h1{
-    text-align: center;
-    margin: 10px;
-}
 
 header nav{
-    text-align: end;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+header nav a{
+    border: #000000 2px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
 }
 
 section{
@@ -26,16 +35,25 @@ section{
     border-radius: 20px;
 }
 
-#sobremi img{
+img{
     border: 2px solid #000000;
     border-radius: 10px;
-    margin: 1rem 31rem;
+    height: 10rem;
+    width: 10rem;
 }
 
-#Hobbiesyhabilidades img{
-    border: 2px solid #000000;
+.tarjetas{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card{
+    background-color: #ffffff;
+    border: #000000 2px solid;
     border-radius: 10px;
-    margin: 1rem 28rem;
+    padding: 10px;
+    box-shadow: 10px 10px #2cda0085;
 }
 
 main section form{
