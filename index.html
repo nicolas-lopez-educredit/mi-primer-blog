@@ -78,38 +78,39 @@
             <h2>Aprediendo formularios</h2>
             <form>
                 <label for="nombre">Nombre:</label>
-                <input placeholder="Nombre" type="text" id="nombre">
+                <input placeholder="Nombre" type="text" id="nombre" required>
                 <label for="edad">Edad:</label>
-                <input placeholder="Edad" type="number" id="edad">
+                <input placeholder="Edad" type="number" id="edad" min="10" max="100">
                 <!--genero-->
+                <p>Genero al que pertenece:</p>
                 <label>
-                    <input type="radio" name="genero">
+                    <input type="radio" name="genero" value="Hombre" required>
                     Hombre
                 </label>
                 <label>
-                    <input type="radio" name="genero">
+                    <input type="radio" name="genero" value="Mujer" required>
                     Mujer
                 </label>
                 <label>
-                    <input type="radio" name="genero">
+                    <input type="radio" name="genero" value="Otro" required>
                     Otro
                 </label>
                 <!--Comida_fav-->
-                <p>comida favorita?</p>
+                <p>Comida favorita:</p>
                 <label>
-                    <input type="checkbox">
-                    pizza
+                    <input type="checkbox" value="Pizza">
+                    Pizza
                 </label>
                 <label>
-                    <input type="checkbox">
+                    <input type="checkbox" value="Salchipapa">
                     Salchipapa
                 </label>
                 <label>
-                    <input type="checkbox">
+                    <input type="checkbox" value="Hot dog">
                     Hot dog
                 </label>
                 <label>
-                    <input type="checkbox">
+                <input type="checkbox" value="Hamburguesa">
                     Hamburguesa
                 </label>
                 <!--email-->
@@ -117,48 +118,53 @@
                 <input placeholder="Email" type="email" id="email" required>
                 <!--comentarios-->
                 <label for="comentarios">Comentarios</label>
-                <textarea id="comentarios"></textarea>
+                <textarea id="comentarios" maxlength="200"></textarea>
                 <!--enviar-->
                 <button>Enviar</button>
             </form>
         </section>
         <!--cards-->
-        <section class="tarjetas">
-            <div class="card">
-                <h3>HTML</h3>
-                <p>Estoy aprendiendo HTML.</p>
-            </div>
+        <section>
+            <h2>Aprendiendo flex-wrap</h2>
+            <div class="tarjetas">
+                <div class="card">
+                    <h3>HTML</h3>
+                    <p>Estoy aprendiendo HTML.</p>
+                </div>
 
-            <div class="card">
-                <h3>CSS</h3>
-                <p>Estoy aprendiendo CSS.</p>
-            </div>
+                <div class="card">
+                    <h3>CSS</h3>
+                    <p>Estoy aprendiendo CSS.</p>
+                </div>
 
-            <div class="card">
-                <h3>Flexbox</h3>
-                <p>Estoy aprendiendo Flexbox.</p>
-            </div>
+                <div class="card">
+                    <h3>Flexbox</h3>
+                    <p>Estoy aprendiendo Flexbox.</p>
+                </div>
 
-            <div class="card">
-                <h3>Node</h3>
-                <p>Estoy aprendiendo Node.</p>
-            </div>
+                <div class="card">
+                    <h3>Node</h3>
+                    <p>Estoy aprendiendo Node.</p>
+                </div>
 
-            <div class="card">
-                <h3>React</h3>
-                <p>Estoy aprendiendo React.</p>
+                <div class="card">
+                    <h3>React</h3>
+                    <p>Estoy aprendiendo React.</p>
+                </div>
             </div>
         </section>
     </main>
     <!--contactos-->
     <footer id="contacto">
-        <a href="https://instagram.com" target="_blank">
-            <img src="imagenes/icono-instagram.png" alt="Instagram">
-        </a>
+        <div>
+            <a href="https://instagram.com" target="_blank">
+                <img src="imagenes/icono-instagram.png" alt="Instagram">
+            </a>
 
-        <a href="https://youtube.com" target="_blank">
-            <img src="imagenes/icono-youtube.png" alt="Youtube">
-        </a>
+            <a href="https://youtube.com" target="_blank">
+                <img src="imagenes/icono-youtube.png" alt="Youtube">
+            </a>
+        </div>
         <p>© 2026 Nicolas Lopez</p>
     </footer>
 </body>
